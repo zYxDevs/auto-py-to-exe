@@ -50,13 +50,13 @@ _इसे चित्रों में प्रदर्शित करन
 आप इस परियोजना को PyPI का उपयोग करके स्थापित कर सकते हैं:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 फिर इसे चलाने के लिए, टर्मिनल में निम्नलिखित का अभ्यास करें:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > यदि आपके पास एक से अधिक पाइथन संस्करण स्थापित हैं, तो आप `python -m auto_py_to_exe` का उपयोग `auto-py-to-exe` के बजाय कर सकते हैं।
@@ -64,15 +64,15 @@ $ auto-py-to-exe
 #### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) के माध्यम से स्थापना
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 फिर इसे चलाने के लिए, टर्मिनल में निम्नलिखित का अभ्यास करें:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) के माध्यम से स्थानिक रूप से चलाना (स्थापना नहीं)
@@ -137,9 +137,9 @@ _आसान।_
 परीक्षण `tests/` में स्थित हैं और pytest का उपयोग करके चलाए जाते हैं:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## स्क्रीनशॉट

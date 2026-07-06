@@ -50,13 +50,13 @@ _כדי שהממשק יוצג בתמונות, תזדקק לכרום. אם כרו
 ניתן להתקין את הפרויקט באמצעות PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 לאחר מכן כדי להפעיל אותו, בצע את הפעולות הבאות בטרמינל:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > אם יש לך יותר מגרסא אחת של פייתון מותקנת, יש לעשות שימוש ב `python -m auto_py_to_exe` במקום ב `auto-py-to-exe`.
@@ -64,15 +64,15 @@ $ auto-py-to-exe
 ### התקנה באמצעות [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 לאחר מכן כדי להפעיל אותו, בצע את הפעולות הבאות בטרמינל:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### הרצה מקומית באמצעות [Github](https://github.com/brentvollebregt/auto-py-to-exe) (ללא התקנה)
@@ -138,9 +138,9 @@ _קללללל._
 בדיקות ממוקמות בתיקיה `tests/` והקצתן נעשית על ידי pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## צילומי מסך

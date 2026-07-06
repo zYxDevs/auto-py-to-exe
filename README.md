@@ -50,13 +50,13 @@ _To have the interface displayed in the images, you will need Chrome. If Chrome 
 You can install this project using PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Then to run it, execute the following in the terminal:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > If you have more than one version of Python installed, you can use `python -m auto_py_to_exe` instead of `auto-py-to-exe`.
@@ -64,15 +64,15 @@ $ auto-py-to-exe
 #### Installing via [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Then to run it, execute the following in the terminal:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### Running Locally via [Github](https://github.com/brentvollebregt/auto-py-to-exe) (no install)
@@ -186,9 +186,9 @@ As of [PyInstaller v4.0](https://github.com/pyinstaller/pyinstaller/releases/tag
 Tests are located in [tests/](./tests/) directory and are run using pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Screenshots

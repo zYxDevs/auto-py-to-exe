@@ -50,13 +50,13 @@ _Za prikaz vmesnika na slikah boste potrebovali Chrome. Če Chrome ni nameščen
 Ta projekt lahko namestite s PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Nato za zagon v terminalu izvedite naslednje:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Če imate nameščenih več kot eno različico Pythona, lahko namesto `auto-py-to-exe` uporabite `python -m auto_py_to_exe`.
@@ -64,15 +64,15 @@ $ auto-py-to-exe
 #### Namestitev prek [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Za zagon v terminalu izvedite naslednje:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### Lokalni zagon prek [Github](https://github.com/brentvollebregt/auto-py-to-exe) (brez namestitve)
@@ -148,9 +148,9 @@ Od izdaje [PyInstaller v4.0](https://github.com/pyinstaller/pyinstaller/releases
 Testi se nahajajo v mapi `tests/` in se izvajajo z ukazom pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Posnetki zaslona

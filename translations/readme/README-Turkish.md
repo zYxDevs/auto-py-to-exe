@@ -52,13 +52,13 @@ _Görsellerde gösterilen arayüze sahip olmak için Chrome tabanlı bir tarayı
 Bu projeyi PyPI kullanarak kurabilirsiniz:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Ardından çalıştırmak için terminalde aşağıdaki komutu yürütün:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Python'un birden fazla sürümü kuruluysa, `auto-py-to-exe` yerine `python -m auto_py_to_exe` kullanabilirsiniz.
@@ -66,15 +66,15 @@ $ auto-py-to-exe
 ### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) Aracılığıyla Kurulum
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Ardından çalıştırmak için terminalde aşağıdaki komutu yürütün:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [Github](https://github.com/brentvollebregt/auto-py-to-exe) Üzerinden Yerel Olarak Çalıştırma (kurulum olmadan)
@@ -143,9 +143,9 @@ Bu araçla ilgili bir sorun bulduğunuzu düşünüyorsanız, lütfen [bir sorun
 Testler `/tests` içinde bulunur ve pytest kullanılarak çalıştırılır:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Ekran Görüntüleri

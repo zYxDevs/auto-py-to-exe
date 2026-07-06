@@ -52,13 +52,13 @@ _За да имате интерфейса, показан на снимките
 Може да инсталирате този проект чрез PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 За да го стартирате, напишете следната команда в терминалът:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Ако имате повече от една версия на Python инсталирана, можете да използвате `python -m auto_py_to_exe` вместо `auto-py-to-exe`.
@@ -66,15 +66,15 @@ $ auto-py-to-exe
 ### Инсталиране чрез [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 За да го стартирате, напишете следната команда в терминалът:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### За да изпълните локално чрез [Github](https://github.com/brentvollebregt/auto-py-to-exe) (без инсталиране).
@@ -144,9 +144,9 @@ _Лесно._
 Тестовете се намират в `tests/` и се изпълняват с помощта на pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Screenshots
